@@ -1,5 +1,5 @@
 {
-  "name": "taskrun",
+  "name": "taskrun.io",
   "version": "0.0.1",
   "description": "Task Runner",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/DovoCompany/TaskRun.git"
   },
   "keywords": [
-    "task",
-    "runner",
+    "task runner",
+    "taskrun",
     "taskrun.io",
     "task",
     "runner",
