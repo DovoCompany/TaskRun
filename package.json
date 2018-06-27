@@ -1,6 +1,6 @@
 {
   "name": "taskrun.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Task Runner",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "task",
     "runner",
     "builder",
-    "tool"
+    "tool",
+    "gulp",
+    "grunt"
   ],
   "author": "Dovo Company",
   "license": "MIT",
