@@ -1,6 +1,6 @@
 {
   "name": "@taskrun.io/babel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "Task Runner",
   "main": "main.js",
@@ -16,7 +16,7 @@
     "babel",
     "6to5"
   ],
-  "author": "Dovo Company",
+  "author": "Dominic Vonk <dominic@dominicvonk.com>",
   "license": "MIT",
   "homepage": "https://taskrun.io/packages/babel"
 }

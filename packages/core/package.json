@@ -19,7 +19,7 @@
     "gulp",
     "grunt"
   ],
-  "author": "Dovo Company",
+  "author": "Dominic Vonk <dominic@dominicvonk.com>",
   "license": "MIT",
   "homepage": "https://taskrun.io"
 }

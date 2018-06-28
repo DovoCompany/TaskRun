@@ -1,6 +1,6 @@
 {
   "name": "taskrun.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Task Runner",
   "main": "main.js",
   "repository": "https://github.com/DovoCompany/taskrun.io/tree/master/packages/placeholder",
@@ -18,7 +18,7 @@
   "dependencies": {
     "@taskrun.io/core": "latest"
   },
-  "author": "Dovo Company",
+  "author": "Dominic Vonk <dominic@dominicvonk.com>",
   "license": "MIT",
   "homepage": "https://taskrun.io"
 }
