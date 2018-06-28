@@ -4,14 +4,14 @@ module.exports = (function() {
         await func();
         return Promise.resolve();
     }
-    let callall = function (arr) {
+    let callAll = function (arr) {
         let newArr = [];
         for(let index in arr) {
             newArr[newArr.length] = arr[index]();
         }
         return newArr;
     }
-    let callallsync = async function (arr) {
+    let callAllSync = async function (arr) {
         let newArr = [];
         for(let index in arr) {
             newArr[newArr.length] = await arr[index]();
@@ -42,7 +42,7 @@ module.exports = (function() {
                 }
                 args[index] = async () => await arg();
             }
-            return async() => await Promise.all(callall(args));
+            return async() => await Promise.all(callAll(args));
         },
         series(...args) {
             args = Array.from(args);
@@ -56,7 +56,7 @@ module.exports = (function() {
                 }
                 args[index] = () => arg();
             }
-            return async() => await callallsync(args);
+            return async() => await callAllSync(args);
         },
         async execute(task) {
             task = registry[task];
