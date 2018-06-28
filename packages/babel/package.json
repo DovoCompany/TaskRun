@@ -1,0 +1,18 @@
+{
+  "name": "@taskrun.io/babel",
+  "version": "0.0.1",
+  "description": "Task Runner",
+  "main": "main.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": "https://github.com/DovoCompany/taskrun.io/tree/master/packages/babel",
+  "keywords": [
+    "taskrun.io",
+    "babel",
+    "6to5"
+  ],
+  "author": "Dovo Company",
+  "license": "MIT",
+  "homepage": "https://taskrun.io/packages/babel"
+}
