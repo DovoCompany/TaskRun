@@ -1,6 +1,6 @@
 {
   "name": "taskrun.io",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Task Runner",
   "main": "main.js",
   "scripts": {
