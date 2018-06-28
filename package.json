@@ -1,14 +1,14 @@
 {
   "name": "taskrun.io",
-  "version": "0.0.3",
+  "version": "0.1.2",
   "description": "Task Runner",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DovoCompany/TaskRun.git"
+    "url": "git+https://github.com/DovoCompany/TaskRun.io.git"
   },
   "keywords": [
     "task runner",
@@ -24,7 +24,7 @@
   "author": "Dovo Company",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DovoCompany/TaskRun/issues"
+    "url": "https://github.com/DovoCompany/TaskRun.io/issues"
   },
-  "homepage": "https://github.com/DovoCompany/TaskRun#readme"
+  "homepage": "https://github.com/DovoCompany/TaskRun.io#readme"
 }
