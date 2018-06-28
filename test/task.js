@@ -1,10 +1,13 @@
 const taskrun = require('../main');
 taskrun.register('task1', async () => {
     await new Promise(resolve => setTimeout(() =>
-    {console.log('demo 1'); resolve();}, 1000));
+    {console.log('demo 1'); resolve();}, 16));
 });
-taskrun.register('task3', () => {
-    console.log('demo 3');
+taskrun.register('task3', async () => {
+  await new Promise(resolve => setTimeout(() =>
+  {console.log('demo 3 / 1'); resolve();}, 16));
+  await new Promise(resolve => setTimeout(() =>
+  {console.log('demo 3 / 2'); resolve();}, 16));
 });
 
 taskrun.register('task2', () => {
