@@ -1,13 +1,9 @@
 {
-  "name": "@taskrun/core",
-  "private": false,
-  "version": "0.0.1",
+  "name": "taskrun.io",
+  "version": "1.0.0",
   "description": "Task Runner",
   "main": "main.js",
-  "scripts": {
-    "test": "node test/task.js"
-  },
-  "repository": "https://github.com/DovoCompany/taskrun.io/tree/master/packages/core",
+  "repository": "https://github.com/DovoCompany/taskrun.io/tree/master/packages/placeholder",
   "keywords": [
     "task runner",
     "taskrun",
@@ -19,6 +15,9 @@
     "gulp",
     "grunt"
   ],
+  "dependencies": {
+    "@taskrun.io/core": "latest"
+  },
   "author": "Dovo Company",
   "license": "MIT",
   "homepage": "https://taskrun.io"
